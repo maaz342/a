@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timer-container">
+        <input type="number" id="hours" placeholder="Hours">
+        <input type="number" id="minutes" placeholder="Minutes">
+        <input type="number" id="seconds" placeholder="Seconds">
+        <input type="number" id="milliseconds" placeholder="Milliseconds">
+        <div class="divider"></div> <!-- Divider line -->
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+        <div id="timer">00:00:00:000</div>
+      </div>
+  <script src="script.js"></script>
+</body>
+</html>
