@@ -26,7 +26,7 @@ body {
   }
   
   .timer-container button {
-    margin: 5px; /* Added margin here */
+    margin: 5px; 
     padding: 8px 20px;
     background-color: #007bff;
     color: #fff;
